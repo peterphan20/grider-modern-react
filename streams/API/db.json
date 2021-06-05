@@ -1,0 +1,47 @@
+{
+  "streams": [
+    {
+      "title": "My Stream",
+      "description": "this stream is amazin",
+      "id": 1
+    },
+    {
+      "title": "My Stream",
+      "description": "this stream is amazin",
+      "id": 2
+    },
+    {
+      "title": "hello",
+      "description": "there",
+      "id": 3
+    },
+    {
+      "title": "hello",
+      "description": "there",
+      "id": 4
+    },
+    {
+      "title": "hello",
+      "description": "there",
+      "id": 5
+    },
+    {
+      "title": "Me stream",
+      "description": "This was made by me",
+      "userId": "104891934106397784699",
+      "id": 6
+    },
+    {
+      "title": "Me stream",
+      "description": "This was made by me",
+      "userId": "104891934106397784699",
+      "id": 7
+    },
+    {
+      "title": "Me stream",
+      "description": "This was made by me",
+      "userId": "104891934106397784699",
+      "id": 8
+    }
+  ]
+}

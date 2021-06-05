@@ -7,7 +7,7 @@ class GoogleAuth extends React.Component {
 		window.gapi.load("client:auth2", () => {
 			window.gapi.client
 				.init({
-					clientId: "363952008883-ohdpjtr83ouco5d2d17auvgk11dfjt54.apps.googleusercontent.com",
+					clientId: "797401886567-9cumct9mrt3v2va409rasa7fa6fq02hh.apps.googleusercontent.com",
 					scope: "email",
 				})
 				.then(() => {
@@ -19,13 +19,13 @@ class GoogleAuth extends React.Component {
 		});
 	}
 
-  onAuthChange = isSignedIn => {
-    if (isSignedIn) {
-      this.props.signIn(this.auth.currentUser.get().getId());
-    } else {
-      this.props.signOut();
-    }
-  };
+	onAuthChange = (isSignedIn) => {
+		if (isSignedIn) {
+			this.props.signIn(this.auth.currentUser.get().getId());
+		} else {
+			this.props.signOut();
+		}
+	};
 
 	onSignInClick = () => {
 		this.auth.signIn();
